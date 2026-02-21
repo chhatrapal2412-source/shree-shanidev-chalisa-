@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>श्री शनि चालीसा | Jai Shani Dev</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+
+:root {
+  --gold: #f5c542;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Serif Devanagari', serif;
+  color: #fff;
+  background: url('https://images.unsplash.com/photo-1544198365-f5d60b6d8190?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Overlay */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  z-index: -1;
+}
+
+/* NAV */
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(0,0,0,0.9);
+  padding: 12px;
+  text-align: center;
+  backdrop-filter: blur(5px);
+}
+
+nav a {
+  color: var(--gold);
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+/* HERO */
+header {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  color: var(--gold);
+  text-shadow: 0 0 15px rgba(245,197,66,0.6);
+}
+
+header p {
+  margin-top: 10px;
+  color: #ddd;
+}
+
+/* SECTION */
+.section {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+.section h2 {
+  text-align: center;
+  color: var(--gold);
+  margin-bottom: 20px;
+}
+
+/* CARD */
+.card {
+  background: rgba(20,20,20,0.9);
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  line-height: 1.8;
+  white-space: pre-line;
+  box-shadow: 0 0 20px rgba(245,197,66,0.2);
+}
+
+/* AUDIO */
+audio {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.9);
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 40px;
+  }
+  .card {
+    font-size: 18px;
+    padding: 30px;
+  }
+  nav a {
+    font-size: 16px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#chalisa">चालीसा</a>
+  <a href="#audio">ऑडियो</a>
+</nav>
+
+<header>
+  <h1>🙏 जय श्री शनिदेव 🙏</h1>
+  <p>श्री शनि चालीसा – शनिवार विशेष</p>
+</header>
+
+<section id="chalisa" class="section">
+  <h2>श्री शनि चालीसा</h2>
+  <div class="card">
+यहाँ पूरी शनि चालीसा टेक्स्ट पेस्ट करें
+  </div>
+</section>
+
+<section id="audio" class="section">
+  <h2>🔊 शनि चालीसा ऑडियो</h2>
+  <audio controls>
+    <source src="shanidev.mp3" type="audio/mpeg">
+  </audio>
+</section>
+
+<footer>
+© 2026 | श्री शनि भक्त सेवा 🙏
+</footer>
+
+</body>
+</html>
